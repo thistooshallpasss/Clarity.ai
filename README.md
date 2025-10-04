@@ -1,3 +1,15 @@
+---
+title: AI Image Upscaler
+emoji: ✨
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+app_file: app.py
+app_port: 5000
+---
+
+
+
 # Clarity.ai: AI Super-Resolution Web App ✨
 
 A complete end-to-end web application that uses a Super-Resolution Generative Adversarial Network (SRGAN) to upscale low-resolution images by 4x. This project demonstrates the entire lifecycle of a deep learning application, from training in PyTorch to deployment via a Flask API.
