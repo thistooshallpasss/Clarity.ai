@@ -12,9 +12,11 @@ app_port: 5000
 
 # Clarity.ai: AI Super-Resolution Web App ✨
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/BlackJack84/ai-image-upscaler)
+
 A complete end-to-end web application that uses a Super-Resolution Generative Adversarial Network (SRGAN) to upscale low-resolution images by 4x. This project demonstrates the entire lifecycle of a deep learning application, from training in PyTorch to deployment via a Flask API.
 
-![Demo GIF or Image](...) ---
+![data/Landing_page.png](...) ---
 
 ## 🚀 About The Project
 
@@ -57,7 +59,7 @@ However, the scores are at a baseline level. The primary reason for this is the 
 ### Visual Results
 Here is a sample comparison from the validation set after 25 epochs:
 
-![sample_image_epoch_25.png](...) *(Left: Low-Res Input, Right: AI Upscaled Output)*
+![data/Landing_page.png](...) *(Left: Low-Res Input, Right: AI Upscaled Output)*
 
 
 ---
@@ -114,3 +116,8 @@ To get a local copy up and running, follow these simple steps.
     python app.py
     ```
 7.  Open your browser and go to `http://127.0.0.1:5000` 
+
+
+## ✅ Deployment
+
+The application is successfully deployed and live on **Hugging Face Spaces**. You can access the live demo using the badge at the top of this page.
